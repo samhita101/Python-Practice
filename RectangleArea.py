@@ -1,0 +1,12 @@
+print("Today we are figuring out the are of a rectangle.")
+print("You get to define the length and width.")
+print("")
+print("Please keep in mind that this program can only take in REAL integer values, \nso refrain from using decimals, fractions, and anything with letters.")
+print("")
+print("Enter your desired width after the colon:")
+width = int(input())
+print("Enter your desired length after the colon:")
+length = int(input())
+
+print("Here is the area of a rectangle with the dimensions you chose:")
+print(length * width, "units squared.")
